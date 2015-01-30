@@ -59,6 +59,24 @@ By passing production into the environment option, you will be making the follow
 + Minify JS
 + Generate gzip for your JS files (it's up to you how you enable them)
 
+## Generators
+
+Sometimes, live updating will not always work for you. This is where generators come in. 
+
+#### Regenerate your SVG font.
+```sh
+# Make more font characters
+$ sohard generate icons
+```
+
+#### Fetch the latest Font Awesome library
+```sh
+# Get the latest Font Awesome
+$ sohard generate fontawesome
+```
+
+More to come...
+
 ## Coming Soon
 
 + Bower & Bower support for Browserify
