@@ -1,0 +1,36 @@
+$red: #c63d0f;
+$white: #f5efe3;
+$grey: #323232;
+
+h1, h2, h3, h4 {
+   font-family: 'Raleway', sans-serif;
+    line-height: 150%;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+#header {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: $white;
+    background: $red;
+    text-align: center;
+    i {
+        font-size: 256px;
+        line-height: 196px;
+    }
+    h1 {
+        font-family: 'Lobster', cursive;
+        text-align: center;
+    }
+    a.get-started {
+
+    }
+}

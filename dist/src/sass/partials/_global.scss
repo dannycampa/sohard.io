@@ -1,0 +1,40 @@
+//-----------------------------------
+// Helpers
+//-----------------------------------
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+ul.unstyled {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	li {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+//-----------------------------------
+// Add your own custom styles below
+//-----------------------------------
+
+html, body {
+    @include font-smoothing();
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+section {
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	
+	&.no-padding {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}

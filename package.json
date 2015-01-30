@@ -1,0 +1,29 @@
+{
+  "name": "sohard.io",
+  "version": "0.0.2",
+  "description": "A front-end framework for compiling static pages with PageSpeed optimization.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannycampa/sohard.io.git"
+  },
+  "author": "Danny Campanile",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dannycampa/sohard.io/issues"
+  },
+  "homepage": "https://github.com/dannycampa/sohard.io",
+  "devDependencies": {
+    "child-exec": "^1.0.0",
+    "commander": "^2.6.0",
+    "fs-extra": "^0.16.3",
+    "gulp": "^3.8.10"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "sohard": "lib/sohard.js"
+  }
+}
