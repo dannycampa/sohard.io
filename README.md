@@ -1,12 +1,12 @@
 # SoHard.io
 
-SoHard.io is a web framework that allows you to build a web application and then compile it into a standalone HTML.
+SoHard.io is a web framework that allows you to build a web application and then compile it into standalone HTML.
 
 ## Installation
 
 **With [node](http://nodejs.org) [installed](http://sailsjs.org/#!documentation/new-to-nodejs):**
 ```sh
-# Get the latest stable release of Sails
+# Get the latest stable release of SoHard
 $ sudo npm install sohard -g
 ```
 
