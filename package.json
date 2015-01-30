@@ -1,6 +1,6 @@
 {
   "name": "sohard.io",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A front-end framework for compiling static pages with PageSpeed optimization.",
   "main": "index.js",
   "scripts": {
