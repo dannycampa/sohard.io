@@ -1,8 +1,19 @@
 {
   "name": "sohard.io",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "A front-end framework for compiling static pages with PageSpeed optimization.",
-  "main": "index.js",
+  "keywords": [
+    "sohard",
+    "so hard",
+    "bootstrap",
+    "sass",
+    "handlebars",
+    "browsersync",
+    "live reload",
+    "html",
+    "node"
+  ],
+  "main": "lib/sohard.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,26 +30,15 @@
   "devDependencies": {
     "child-exec": "^1.0.0",
     "commander": "^2.6.0",
-    "fs-extra": "^0.16.3",
+    "fs-extra": "^0.16.3"
   },
   "dependencies": {
     "child-exec": "^1.0.0",
     "commander": "^2.6.0",
-    "fs-extra": "^0.16.3",
+    "fs-extra": "^0.16.3"
   },
   "preferGlobal": "true",
   "bin": {
     "sohard": "lib/sohard.js"
-  },
-  "keywords": [
-    "sohard",
-    "so hard",
-    "bootstrap",
-    "sass",
-    "handlebars",
-    "browsersync",
-    "live reload",
-    "html",
-    "node"
-  ]
+  }
 }

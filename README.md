@@ -38,7 +38,7 @@ The following features are included with this version:
 **With [node installed](http://nodejs.org):**
 ```sh
 # Get the latest stable release of SoHard
-$ sudo npm install sohard -g
+$ sudo npm install sohard.io -g
 ```
 
 ## Make Your Project, SoHard
