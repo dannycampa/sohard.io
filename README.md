@@ -47,17 +47,56 @@ $ sohard launch
 ```
 
 #### Compile for production
-```sh
-# launch the server with production code
-$ sohard launch --env production
-```
-##### What this does
 
 By passing production into the environment option, you will be making the following optimizations:
 
 + Minify CSS
 + Minify JS
 + Generate gzip for your JS files (it's up to you how you enable them)
+```sh
+# launch the server with production code
+$ sohard launch --env production
+```
+
+## Project Configuration
+
+You can add project specific information to inject into your HTML by adding it to a file at ./config/project.js
+
+#### Inject Google Font stylesheets into your head
+```sh
+# ./config/project.js
+google_fonts: {
+	families: [
+		# copy the value directly after the family parameter provided by the Google Fonts link tag:
+		# <link href='http://fonts.googleapis.com/css?family=**Open+Sans**' rel='stylesheet' type='text/css'>
+		'Lobster',
+		'Raleway:400,200,700'
+	]
+},
+```
+
+#### Inject Google Analytics scripts to your footer
+```sh
+# ./config/project.js
+google_analytics: {
+	ua_codes: [
+		# you can add multipl scripts. Keep in mind only one legacy script can be added(ga.js)
+		{
+			type: 'universal', //universal or legacy
+			ua_code: 'UA-XXXXXXXX-X'
+		},
+		{
+			type: 'universal',
+			ua_code: 'UA-YYYYYYYY-Y'
+		},
+		{
+			type: 'legacy',
+			ua_code: 'UA-ZZZZZZZZ-Z'
+		}
+	]
+
+}
+```
 
 ## Generators
 
