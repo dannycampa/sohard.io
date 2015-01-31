@@ -28,9 +28,6 @@ module.exports = {
 	
 	handlebars: {
 		layout: 'layouts/layout.hbs', //soon
-		data: {
-			title: 'My New App'	
-		},
 		helpers: {
 			
 			toUpper : function(str){
@@ -42,6 +39,10 @@ module.exports = {
 	
 	markup: {
 		template_engine: 'hbs' //only .hbs available right now
+	},
+	
+	template_data: {
+		title: 'Make things so hard'	
 	}
 	
 }

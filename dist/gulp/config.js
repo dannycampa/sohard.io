@@ -34,7 +34,7 @@ module.exports = {
 		watch: src + '/views/**',
 		html: dest + '/*.html',
 		dest: dest,
-		templateData: project.handlebars.templateData,
+		templateData: project.template_data,
 		options: {
 			ignorePartials: true,
 			batch : ['./src/views/partials'],
