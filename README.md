@@ -35,7 +35,7 @@ The following features are included with this version:
 
 ## Installation
 
-**With [node](http://nodejs.org) [installed](http://sailsjs.org/#!documentation/new-to-nodejs):**
+**With [node installed](http://nodejs.org):**
 ```sh
 # Get the latest stable release of SoHard
 $ sudo npm install sohard -g
