@@ -65,10 +65,13 @@ You can add project specific information to inject into your HTML by adding it t
 #### Inject Google Font stylesheets into your head
 ```sh
 # ./config/project.js
+
+# copy the value directly after the family parameter 
+# provided by the Google Fonts link tag:
+# <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 google_fonts: {
 	families: [
-		# copy the value directly after the family parameter provided by the Google Fonts link tag:
-		# <link href='http://fonts.googleapis.com/css?family=**Open+Sans**' rel='stylesheet' type='text/css'>
+		'Open+Sans',
 		'Lobster',
 		'Raleway:400,200,700'
 	]
@@ -78,9 +81,11 @@ google_fonts: {
 #### Inject Google Analytics scripts to your footer
 ```sh
 # ./config/project.js
+
+# you can add multiple scripts. Keep in mind only one 
+# legacy script can be added(ga.js)
 google_analytics: {
 	ua_codes: [
-		# you can add multipl scripts. Keep in mind only one legacy script can be added(ga.js)
 		{
 			type: 'universal', //universal or legacy
 			ua_code: 'UA-XXXXXXXX-X'
@@ -96,6 +101,24 @@ google_analytics: {
 	]
 
 }
+```
+
+#### Template Data for Handlebars
+```sh
+# ./config/project.js
+template_data: {
+	title: 'Make things so hard'	
+}
+```
+
+```sh
+# ./src/views/partials/head.hbs
+<title>{{title}}</title>
+```
+
+```sh
+# ./build/index.html
+<title>Make things so hard</title>
 ```
 
 ## Generators
