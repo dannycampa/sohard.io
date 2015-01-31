@@ -94,8 +94,7 @@ module.exports = {
 			{
 				entries: src + '/javascript/app.js',
 				dest: dest + '/assets/js',
-				outputName: 'app.js',
-				external: ['jquery', 'bootstrap']
+				outputName: 'app.js'
 			}
 		]
 	},

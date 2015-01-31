@@ -1,5 +1,5 @@
-var $ = require('jquery'),
-    bootstrap = require('bootstrap-sass/assets/javascripts/bootstrap.js'),
+var jQuery = $ = require('jquery'),
+    bootstrap = require('./vendor/bootstrap.js'),
     helper = require('./modules/helpers'),
     square = require('./modules/square');
 
