@@ -24,9 +24,13 @@ The following features are included with this version:
 ## Table of Contents
 
 [Installation](https://github.com/dannycampa/sohard.io#installation)
+
 [Making Your Project, So Hard](https://github.com/dannycampa/sohard.io#make-your-project-sohard)
+
 [Project Configuration](https://github.com/dannycampa/sohard.io#project-configuration)
+
 [Generators](https://github.com/dannycampa/sohard.io#generators)
+
 [Coming in Next Releases](https://github.com/dannycampa/sohard.io#coming-soon)
 
 ## Installation
