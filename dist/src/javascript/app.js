@@ -1,11 +1,15 @@
 var jQuery = $ = require('jquery'),
     bootstrap = require('./vendor/bootstrap.js'),
+    fancybox = require('fancybox'),
     helper = require('./modules/helpers'),
     square = require('./modules/square');
 
 helper.safe_console();
 
 $(function(){
+    
+    //Fancybox Test
+    $('.fancybox').fancybox();
     
     //Bootstrap Test
     $('#bootstrap_test').on('click', function () {

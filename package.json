@@ -1,6 +1,6 @@
 {
   "name": "sohard.io",
-  "version": "0.0.9",
+  "version": "0.1.7",
   "description": "A front-end framework for compiling static pages with PageSpeed optimization.",
   "keywords": [
     "sohard",
@@ -27,15 +27,14 @@
     "url": "https://github.com/dannycampa/sohard.io/issues"
   },
   "homepage": "https://github.com/dannycampa/sohard.io",
-  "devDependencies": {
-    "child-exec": "^1.0.0",
-    "commander": "^2.6.0",
-    "fs-extra": "^0.16.3"
-  },
   "dependencies": {
     "child-exec": "^1.0.0",
+    "cli-spinner": "^0.2.0",
     "commander": "^2.6.0",
-    "fs-extra": "^0.16.3"
+    "fs-extra": "^0.16.3",
+    "gulp": "^3.8.10",
+    "prompt": "^0.2.14",
+    "replace": "^0.3.0"
   },
   "preferGlobal": "true",
   "bin": {

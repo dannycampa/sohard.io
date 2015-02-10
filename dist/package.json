@@ -1,15 +1,17 @@
 {
-  "name": "sohard",
-  "version": "0.0.2",
-  "description": "Framework with HBS, libSass, Browserify, Browsersync, Bootstrap, and more",
+  "name": "{{app.name}}",
+  "version": "0.0.1",
+  "description": "{{app.description}}",
   "//": [],
+  "repository": {{app.repo}},
   "browser": {
     "jquery": "./node_modules/jquery/dist/jquery.js",
     "bootstrap": "./node_modules/bootstrap-sass/assets/javascripts/bootstrap.js"
   },
   "browserify": {
     "transform": [
-      "browserify-shim"
+      "browserify-shim",
+      "debowerify"
     ]
   },
   "browserify-shim": {
@@ -20,6 +22,7 @@
     "browserify": "^8.0.2",
     "browserify-shim": "^3.8.2",
     "compass-mixins": "^0.12.3",
+    "debowerify": "^1.2.0",
     "del": "^1.1.1",
     "grunt": "^0.4.5",
     "gulp": "^3.8.7",

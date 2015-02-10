@@ -41,6 +41,10 @@ module.exports = {
 		template_engine: 'hbs' //only .hbs available right now
 	},
 	
+	server: {
+		port: 3000
+	},
+	
 	template_data: {
 		title: 'Make things so hard'	
 	}

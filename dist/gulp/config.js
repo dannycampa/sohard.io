@@ -9,7 +9,8 @@ module.exports = {
 		server: {
 			// Serve up our build folder
 			baseDir: dest
-		}
+		},
+		port: project.server.port
 	},
 	
 	sass: {
